@@ -1,9 +1,8 @@
 import React from "react";
-import { Layout, Image } from "antd";
+import { Layout } from "antd";
 import { Outlet } from "react-router-dom";
 
 import layoutCommonStyle from "./index.module.scss";
-import backgroundSrcImage from "~/images/market-place/background.png";
 import Header from "~/components/molecules/header";
 import Footer from "~/components/molecules/footer";
 
