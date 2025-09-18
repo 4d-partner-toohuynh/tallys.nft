@@ -16,7 +16,7 @@ const RoutesConfig: IRoute[] = [
     element: CommonLayout,
     children: [
       {
-        path: "/",
+        path: "marketplace",
         element: Marketplace,
       },
     ],

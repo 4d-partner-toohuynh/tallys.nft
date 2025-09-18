@@ -14,11 +14,11 @@ const CommonLayout: React.FC = () => {
 
       <Layout.Content className={layoutCommonStyle.backgroundImg}>
         <Outlet />
-        <Image
+        {/* <Image
           preview={false}
           src={backgroundSrcImage}
           alt="background-src-image"
-        />
+        /> */}
       </Layout.Content>
 
       <Footer />
@@ -27,3 +27,4 @@ const CommonLayout: React.FC = () => {
 };
 
 export default CommonLayout;
+
