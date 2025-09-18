@@ -1,11 +1,4 @@
-import { lazy, LazyExoticComponent } from "react";
-
-interface IRoute {
-  path: string;
-  element: LazyExoticComponent<React.ComponentType<any>>;
-  children?: IRoute[];
-  index?: boolean;
-}
+import { lazy } from "react";
 
 const CommonLayout = lazy(() => import("~/layouts/common"));
 const Marketplace = lazy(() => import("~/pages/marketplace"));
