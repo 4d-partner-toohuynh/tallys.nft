@@ -16,7 +16,7 @@ const RoutesConfig: IRoute[] = [
     element: CommonLayout,
     children: [
       {
-        path: "marketplace",
+        path: "/",
         element: Marketplace,
       },
     ],
@@ -24,3 +24,4 @@ const RoutesConfig: IRoute[] = [
 ];
 
 export default RoutesConfig;
+
